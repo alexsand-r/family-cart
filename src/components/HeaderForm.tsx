@@ -5,7 +5,7 @@ export const HeaderForm = () => {
     <>
       <div className="my-container py-1">
         <h1 className="text-center text-2xl">Shopping List</h1>
-        <form className="mx-auto py-4 rounded-md flex w-full">
+        <form className="mx-auto mt-4 rounded-md flex w-full">
           <input
             id="title"
             type="text"

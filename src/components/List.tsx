@@ -4,10 +4,10 @@ export const List = () => {
   return (
     <>
       <div className="overflow-x-auto my-container">
-        <table className="table max-w-sm text-xl">
+        <table className="table text-xl">
           <tbody>
             {/* <!-- row 1 --> */}
-            <tr className="align-middle">
+            <tr>
               <td>
                 <div className="w-6 h-6 border-2 border-gray-400 rounded-full flex justify-center items-center">
                   <svg
@@ -32,7 +32,7 @@ export const List = () => {
               </td>
               <td>
                 <div className="flex justify-end items-center">
-                  <button className="btn btn-ghost btn-circle btn-sm text-error mt-0.5 pt-1">
+                  <button className="btn btn-ghost btn-circle btn-sm text-error">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-6 w-6"
