@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import "./styles/loader.css";
+
+:root {
+  /* colors */
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #ffffff;
+  --border: #e5e4e7;
+  --accent: #aa3bff;
+
+  /* ui */
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  /* fonts */
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+}
+
+/* 🔹 база */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 18px;
+  line-height: 1.45;
+  color: var(--text);
+  background: var(--bg);
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* 🔹 контейнер */
+.my-container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding-inline: 15px;
+}
