@@ -22,7 +22,7 @@ export const Footer = ({
       <div className="w-full my-container flex flex-col md:flex-row justify-between items-center pb-4 gap-3">
         <div>
           <span>{activeProduct.length}</span>
-          <span>- items</span>
+          <span> - products</span>
         </div>
         <div className="flex flex-col sm:flex-row gap-3">
           <div className="flex gap-5">
