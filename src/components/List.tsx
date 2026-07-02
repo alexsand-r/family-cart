@@ -1,5 +1,4 @@
 // .. List.tsx
-import { useState } from "react";
 import type { Product } from "../types/Product";
 interface ListProps {
   products: Product[];
