@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
 @import "./styles/loader.css";
+@import "./styles/loader-mini.css";
 
 :root {
   /* colors */
